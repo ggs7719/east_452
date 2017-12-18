@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*--------------------------------------------------------------------------------[  cp  ]----------*/
+.np h2 {
+	background-image: url(../images/icon_here.gif);
+	background-repeat: no-repeat;
+	background-position: left 1px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 15px;
+}
+.np h2 span {
+	font-size: 100%;
+	color: #760000;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;	
+}
+.np h3 {
+	color: #333333;
+	text-decoration: none;
+	margin: 0px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+}
+/*--------------------------------------------------------------------------------[  ul li  ]----------*/
+.np ul {
+	width: 100%;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 30px;
+}
+.np ul li {
+	padding-top: 4px;
+	padding-right: 0px;
+	padding-bottom: 4px;
+	padding-left: 0px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: dotted;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	list-style-type: decimal;
+	font-size: 80%;
+	background-position: 0px 0px;
+	margin-top: 0px;
+	margin-right: 30px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.np ul li a {
+	padding: 0px;
+	width: 95%;
+	display: block;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	font-size: 100%;
+	text-align: justify;
+}
+.np ul li a:hover {
+	color: #900;
+	text-decoration: underline;
+}
+

@@ -1,0 +1,314 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*--------------------[ mlmenu_第一階控制 ]--------------------*/	
+.top .mlmenu {
+	margin:0px 0;
+	text-align:left;
+	clear:both;
+	width: 100%;
+	position: absolute;
+	top: 82px;
+	z-index: 99;
+}
+
+
+
+.top .mlmenu ul {
+	text-align: center;
+	float: left;
+	padding-top: 0px;
+	padding-right: 0;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	margin: 0 0 0 15px;
+	/*background-image: url(../images/topSub_line01.gif);*/
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.top .mlmenu ul li {
+	display: inline;
+	float: left;
+	margin: 0px;
+	padding: 0px 10px;
+	position: relative;
+}
+.top .mlmenu ul li a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #fff;
+	text-decoration: none;
+	text-transform: capitalize;
+	vertical-align: text-top;
+	padding-top: 8px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: -4px;
+	background-image: url(../images/topSub_line02.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+	margin: 0px;
+	display: block;
+}
+.top .mlmenu ul li a:hover {
+	color: #FF3;
+}
+
+/*--------------------[ mlmenu_第二階控制 ]--------------------*/
+.top .mlmenu ul li ul {
+	position: absolute;
+	left: 0;
+	display: block;
+	/*------預設選單先關掉,再由js控制load完所有資料再送出----------*/
+	display:none;
+	padding: 0px;
+	width: 140px;
+	float: left;
+	background-color: #CCCCCC;
+	z-index: 99;
+	margin: 0px 0px 0px -2px;
+	border: 0px solid #000000;
+}
+.top .mlmenu ul li ul li {
+	clear: left;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+	border: 1px solid #FFF;
+}
+.top .mlmenu ul li ul li a {
+	color: #000000;
+	width: 140px;
+	margin: 0px;
+	float: left;
+	text-decoration: none;
+	font-size: 80%;
+	text-align: left;
+	/*-----第二階背景-----*/
+	background-image: url(../images/menu_bg02.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding: 3px 2px 2px 18px;
+	line-height: 150%;
+}
+.top .mlmenu ul li ul li a:hover {
+	color: #FFFFFF;
+	/*-----第二階背景置換-----*/
+	background-image: url(../images/menu_bg01.jpg);
+}
+/*end of -----------------------menu*/
+/*第二層選單定位*/
+.top .mlmenu li {	
+	position: relative;
+	z-index:999;
+}
+.top .mlmenu li ul {
+	position: absolute;
+	left: -10px;
+	top:33px;
+	height: auto;
+	z-index:999;
+	display:none;
+}
+
+/*第三層選單定位*/
+.top .mlmenu li li ul{
+	position: absolute;
+	z-index:1000;
+	left:162px;
+	top:2px;
+	display:none;
+}
+
+.top .mlmenu li ul li a{
+
+}
+/*end of -----------------------menu*/
+
+
+/*--Vertical 垂直 彈出定位設定 Start--*/
+.leftbg .mlmenu {
+	margin:5px 0px 10px 0px;
+	padding:10px 0 0;
+	clear:both;	
+	font-size: 125%;
+	/*background: url(../images/vertica_Menubg.gif) no-repeat 0px 0px;*/
+	
+ }
+
+.leftbg .mlmenu h2 {
+	font-size: 125%;
+	display:none;
+	margin:0 0 5px 0px;
+	background-image:none;
+}
+.leftbg .mlmenu h2 span a{color: #006699;}
+
+.leftbg .mlmenu ul{
+	margin:0px;
+	margin:0px 0px 0px -15px\9;
+	*margin:0px 0px 0px -10px;
+	padding:0px;
+	list-style-type: none;
+	z-index:10;
+	width:170px;
+	font-size: 13px;
+ }
+
+
+.leftbg .mlmenu li a{
+	font-size: 15px;
+	font-weight: bold;
+	color:#5f2627;
+	text-decoration:none;
+	display:block;
+	border-bottom: 1px solid #dbd1c5;
+	background: url(../images/dot3.gif) no-repeat 2px 11px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.leftbg .mlmenu li a:hover{
+	color: #c34e02;
+	border-bottom: 1px solid #b9ab9a;
+}
+
+.leftbg .mlmenu img{ padding:4px 0 0 0;}
+
+
+.leftbg .mlmenu li{
+	display: inline-block; /*----解決firefox 第二層會掉下去的問題----------*/
+	position: relative;
+	z-index:9; /*動態選單層級需設在li才有效,不能設ul*/
+	width:170px;
+	
+}
+.leftbg .mlmenu li ul{
+	position: absolute;
+	top: 0;
+	margin-top: 0px;
+	margin-left: 170px;
+	display: block;
+	display:none;
+	font-size: 13px;
+	z-index: 99;
+}
+.leftbg .mlmenu li ul li  {
+	clear: left;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+	border-style: none;
+}
+.leftbg .mlmenu li ul li a{
+	color: #000000;
+	width: 170px;
+	margin: 0px;
+	float: left;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-decoration: none;
+	padding-top: 3px;
+	padding-right: 2px;
+	padding-bottom: 4px;
+	padding-left: 18px;
+	font-size: 100%;
+	text-align: left;
+	/*-----第二階背景-----*/
+	background-image: url(../images/menu_bg02.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	border-bottom: 1px solid #666;
+	}
+.leftbg .mlmenu li ul li a:hover{
+	color: #FFFFFF;
+	/*-----第二階背景置換-----*/
+	background-image: url(../images/menu_bg01.jpg);
+	border-bottom: 1px solid #999;
+	}
+
+
+
+/*--Vertical 選單層級樣式Start--*/
+.leftbg .menubg ul {
+	background-image: none;
+	width:182px;    /*--要設寬度展開時才不會有第二次展開停頓的現象--*/	
+	padding:0px 0px 0px 8px;	
+	margin:0;	
+	
+}
+
+.leftbg .menubg  ul ul{
+	margin:0 0 0 170px;	
+	position: absolute;
+	z-index:999;
+	left: 0;
+	*left:auto;
+	padding:0px 0px 0px 0px;
+	border: 1px solid #FFF;
+	border-bottom:0px;
+	background: #FFF;
+}
+.leftbg .menubg  ul ul ul{
+	margin-left: 0px;
+	 
+}
+
+.leftbg .menubg li{	
+	_float:left;  /*--解決ie6點到時選單會掉下來問題--*/
+	padding:0px;
+	
+}
+.leftbg .menubg li a {
+	
+}
+
+.leftbg .menubg li a:hover {
+}
+.leftbg .menubg li a:active {
+}
+
+.leftbg .menubg li li{
+	width:auto; /*--展開時較不會停頓--*/
+	padding:0px;
+	margin:0px;	
+	float:left;
+		
+}
+.leftbg .menubg li li a {
+}
+.leftbg .menubg li li a:hover{
+}
+
+.leftbg .menubg li a.here{
+	text-decoration: none;
+	color: #006699;	
+	font-weight: bold;	
+}
+.leftbg .menubg li li a.here{
+	text-decoration: none;
+	
+	font-weight: normal;
+	background-image:none;
+}
+.leftbg .menubg img {
+	border: none;
+	vertical-align: text-top;
+	margin-left: 2px;
+}
+.leftbg .menubg .foot{
+	padding:15px 0px 0px 0px;
+	margin:0 0px;
+	list-style-type: none;	
+	background-image: url(../images/vertica_MenuEnd.gif);
+	background-repeat: no-repeat;
+	background-position: 0px bottom;		
+}
+
+

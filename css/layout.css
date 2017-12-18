@@ -1,0 +1,82 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/*--------------------------------------------------------------------------------[ layout ]-----*/
+.layout  {
+	width: 1000px;
+	padding: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	background:#f5f0e9;
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+.layout tr {
+	vertical-align: top;
+}
+/*--------------------------------------------------------------------------------[ accesskey ]-----*/
+.accesskey {
+	margin: 0px 0px 0px -10px;
+	padding: 0px;
+	position: absolute;
+}
+.accesskey a {
+	font-size: 80%;
+	color: #FFF; 
+	text-decoration: none; 
+}
+.accesskey a:hover {
+	color: #FFF;
+}
+/*--------------------------------------------------------------------------------[ leftbg ]-----*/
+.layout .leftbg {
+	width: 200px;
+	margin: 0px;
+	padding: 0px;
+}
+.layout .leftbg .side {
+	vertical-align: top;
+	margin: 0px;
+	padding: 0px 0px 0px 10px;
+}
+
+/*--------------------------------------------------------------------------------[ center ]-----*/
+.layout .center {
+	margin: 0px;
+	padding: 10px 5px 0px 20px;
+	background: #FFF;
+}
+
+/*--------------------------------------------------------------------------------[ rightbg ]-----*/
+.layout .rightbg {
+	width: 180px;
+	text-align: left;
+	padding: 10px;
+}
+.layout .rightbg .side {
+	vertical-align: top;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*--------------------------------------------------------------------------------[ layout_table ]-----
+.layout table { 
+	width:100%; 
+}
+.layout table td {
+	margin:0px; padding:0px; 
+}
+.leftblock {
+	vertical-align:top; width:48%; 
+}
+.col3block {
+	vertical-align:top; width:33%;
+}
+*/
+/*
+.layout table { 	width:100%; }
+.layout table td { margin:0px; padding:0px; }
+.leftblock { vertical-align:top; width:48%;  }
+.col3block { 	vertical-align:top; width:33%; }
+*/
+

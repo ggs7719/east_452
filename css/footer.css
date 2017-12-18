@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*--------------------------------------------------------------------------------[ footer design ]-----*/
+.footer {
+	width: 1000px;
+	position: relative;
+	height:80px;
+	background: #c0ae7e url(../images/footer_bg.gif) no-repeat left top;
+}
+
+/*--------------------------------------------------------------------------------[ aaa ]-----*/
+.footer .aaa {
+	clear: right;
+	float: right;
+	margin: 0px;
+	padding: 0px;
+}
+.footer .aaa a {
+	margin: 0px;
+	padding: 0px;
+}
+.footer .aaa a img {
+	height: 31px;
+	width: 88px;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*--------------------------------------------------------------------------------[ egov ]-----*/
+.footer .egov {
+	display: none;
+	visibility: hidden;
+}
+.footer .egov a { 
+}
+.footer .egov a img {
+	height: 45px;
+	width: 43px;
+	margin: 0px;
+	padding: 10px;
+}
+
+/*--------------------------------------------------------------------------------[ p ]-----*/
+.footer p {
+	color: #464646;
+	font-size: 80%;
+	line-height: 22px;
+	width: 600px;
+	margin-left: 250px;
+	text-align: justify;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 20px;
+}
+.footer p img {
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	display: none;
+	visibility: hidden;
+}
+
+/*--------------------------------------------------------------------------------[ copyright ]-----*/
+.footer .copyright {
+	margin: 0px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 185px;
+/*----------[ hidden ]----------*/
+	display: none;
+	visibility: hidden;
+}
+.footer .copyright ul {
+	padding: 0px;
+	width: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.footer .copyright ul li {
+	display: inline;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.footer .copyright ul li a {
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 13px;
+	background-image: url(../images/footer_icon_01a.gif);
+	background-repeat: no-repeat;
+	background-position: left 4px;
+	*background-position: left 1px;
+}
+.footer .copyright ul li a:hover {
+	background-image: url(../images/footer_icon_01b.gif);
+	color: #000000;
+}
+
+/*--------------------------------------------------------------------------------[ visitor ]-----*/
+
+.footer .visitor {
+	position: absolute;
+	left: 800px;
+	bottom: 30px;
+	font-size: 12px;
+	color: #252525;
+}
+.footer .visitor em {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	color: #c34e02;
+	padding-left: 3px;
+}
+
+/*--------------------------------------------------------------------------------[ update ]-----*/
+.footer .update {
+	position: absolute;
+	left: 800px;
+	bottom: 50px;
+	font-size: 12px;
+	color: #252525;
+}
+.footer .update em {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	padding-left: 3px;
+}

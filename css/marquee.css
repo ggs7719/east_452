@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*--------------------------------------------------------------------------------[ marquee ( 跑馬燈獨立控制 ) ]-----*/
+.center .marquee {
+	padding: 0px;
+	width: 100%;
+	border-top-width: 5px;															/*----------------------------------------[ 控制下框線條粗細 ]----------*/
+	border-top-style: solid;
+	border-top-color: #760000;													/*----------------------------------------[ 控制下框線條顏色 ]----------*/
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.center .marquee .headline {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.center .marquee h2 {
+	display: none;
+	visibility: hidden;
+}
+.center .marquee .rss {
+	display: none;
+	visibility: hidden;
+}
+.center .marquee .body {
+	width: 100%;
+	padding: 0px;
+	text-align: center;
+	margin-top: 0px;
+	*margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.center .marquee .body #xiaoqing {
+	width: 95%;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 2px;
+	padding-left: 0px;
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: dotted;
+	border-right-style: none;
+	border-bottom-style: dotted;
+	border-left-style: none;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+}
+.center .marquee .body #xiaoqing .date {
+	margin: 0px;
+	padding: 0px;
+	color: #999;
+}
+.center .marquee .body #xiaoqing a {
+	display: inline-block;
+	background-image: none;
+	margin: 0px;
+	padding: 0px;
+	color: #666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-decoration: none;
+}
+.center .marquee .body #xiaoqing a:hover {
+	color: #760000;
+	text-decoration: underline;
+}

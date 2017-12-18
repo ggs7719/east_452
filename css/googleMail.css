@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*--------------------------------------------------------------------------------[ Canter schoolgocland ]-----*/
+.wrap .layout .center #schoolgocland {
+	padding: 0px;
+	text-align: center;
+	width: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.wrap .layout .center #schoolgocland iframe {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	width: 96%;
+	height: 400px;
+}
+
+/*--------------------------------------------------------------------------------[ rightbg  schoolgocland ]-----*/
+.wrap .layout .leftbg #schoolgocland,
+.wrap .layout .rightbg #schoolgocland {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.wrap .layout .leftbg #schoolgocland iframe,
+.wrap .layout .rightbg #schoolgocland iframe {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	width: 180px;
+	height: 200px;
+}

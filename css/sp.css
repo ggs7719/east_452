@@ -1,0 +1,486 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*--------------------------------------------------------------------------------[  sp  ]----------*/
+
+.sp {
+}
+.sp h2 {
+	background-image: url(../images/icon_here.gif);
+	background-repeat: no-repeat;
+	background-position: left 1px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 15px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+}
+.sp h2 span {
+	font-size: 100%;
+	color: #760000;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;	
+}
+.sp h3 {
+	color: #333333;
+	text-decoration: none;
+	margin: 0px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+}
+
+/*--------------------------------------------------------------------------------[  sp table  ]----------*/
+.sp p {
+	margin: 0px 0px 5px 0px;
+	padding: 0px;
+}
+.sp ol,
+.sp ul {
+	margin: 5px 0 0 0px;
+	padding: 0px;
+	display: inline-block;	
+}
+.sp ul li {
+	list-style-type: circle;
+	margin-left:30px;
+}
+.sp ul li li {
+	list-style-type: circle;
+}
+.sp ul li li li{
+	list-style-type: square;
+}
+.sp ol li {
+	list-style: decimal;
+	margin-left:37px;
+}
+.sp .subnode ul { 
+	margin: 5px 0;
+}
+.sp .subnode li {
+	display: inline;
+	margin: 0px 0px 0 3px;
+	padding:3px 5px;
+	border: 1px solid #999;
+	background: #fff url(../images/subnode_bg.jpg) repeat-x 0px 0px;
+	list-style: none;
+}
+.sp .subnode a {
+	color: #ffffff;
+}
+.sp .subnode li a {
+	color: #333;
+}
+.sp .subnode li a:hover { 
+	color: #009900; 
+}
+.sp .subnode li.here {
+	color: #FFFFFF;
+	background: #319700;
+}
+.sp .subnode li.here a{ 
+	color:#FFFFFF;
+}
+.sp .subnode li.here a:hover{ color:#FFFFFF;text-decoration:underline;}
+.sp table{
+	margin:2px 0px 10px 0px;
+	width:100%;
+	padding:3px;	
+	border-top: 1px solid #000;
+	border-left: 1px solid #000;
+}	
+.sp table caption{
+	padding:2px;
+	color: #999999;
+	text-align:left;
+}
+.sp table th{
+	color: #003399;
+	padding:3px;
+	font-weight: normal;
+	text-align: left;
+	line-height: 20px;
+	background-color: #BFD3E3;
+	border-bottom: 1px solid #97B3CE;
+	border-right: 1px solid #97B3CE;
+}	
+.sp table th.throw{
+	color: #006699;
+	padding:3px;
+	font-weight: bold;
+	text-align: right;
+	border-bottom: 1px solid #97B3CE;
+	line-height: 20px;
+	background-color: #FFFFFF;
+	white-space: nowrap;
+	vertical-align: top;
+	background-image: none;
+}
+.sp table td{
+	padding:3px;
+	border-bottom: 1px solid #97B3CE;
+	border-right: 1px solid #97B3CE;
+	background-image: none;
+	line-height: 20px;
+	vertical-align: baseline;	
+}
+.sp table td.left_line{}
+.sp table td ul{	
+	background-image: none;
+	margin:0px;
+	padding:0px;
+}
+.sp table td ol{	
+	margin:0px;	
+	padding:0px;
+}
+.sp table td ol li{	
+	padding:0px;
+	width:100%;	
+	background-image: none;		
+}
+.sp table td li{
+	color: #333333;
+	padding:0px;
+	margin:0 0 0 10px;
+	list-style-type: circle;
+}
+.sp table td li a{
+	color: #006699;
+	text-decoration:underline;
+}
+
+/*--------------------------------------------------------------------------------[  共用設定wmv / qt  ]----------*/
+.sp .wmv, .sp .qt  {
+	margin:10px 0;
+	padding:0px 0 0 0px;
+	width:390px;
+	height:322px;
+	text-align:center;
+	background: url(../images/wmv_bg.jpg) no-repeat 0px 10px;
+}
+.sp .wmv object, .sp .wmv img, sp .qt object, .sp .qt img{
+	margin:30px 0 0 0px;
+	border:1px solid #fff;
+	width:320px;
+	height:240px;
+}
+/*---------------------------------------------calendar*/
+.sp .calendar{
+	margin:2px 0px 0px;
+	padding:3px 0px;
+	width: 97%;
+	border: 0px solid #c8bea6;
+	font-size: 13px;
+}	
+.sp .calendar caption{
+	padding:2px;
+	color: #999999;
+	text-align:left;
+	position:relative;
+}
+.sp .calendar th{
+	color: #0066CC;
+	padding:3px;
+	font-weight: normal;
+	text-align: left;
+	line-height: 20px;
+	background: #DCECFA;
+	border: 0px solid #c8bea6;
+}
+.sp .calendar th a{
+	color:#003399;	
+	text-decoration: underline;
+}
+.sp .calendar th .select{ text-align:center;}
+.sp .calendar th .select li{ display:inline; margin:0 0 0 10px;}
+.sp .calendar th .select li.yesterday, .yesterday{
+	background: url(../images/icon_previous2.gif) no-repeat left center;
+	padding:3px 0 2px 15px;
+} 
+
+.sp .calendar th .select li.tomorrow,.tomorrow{
+	background: url(../images/icon_nex2.gif) no-repeat right center;
+	padding:3px 15px 3px 0px;
+}
+.sp .calendar td.allday, .sp .calendar th.allday{
+	color: #FFF;
+	text-align:center;
+	vertical-align:middle;
+	background: #a5956c;
+	font-weight: bold;
+	font-size:125%;
+}	
+.sp .calendar th.throw{
+	color: #006699;
+	padding:3px;
+	font-size:105%;
+	font-weight: normal;
+	text-align: center;
+	border-bottom: 0px solid #000;
+	white-space: nowrap;
+	vertical-align: middle;
+	background-image: none;
+	background-color: #ead7bd;
+	width: 25%;
+}
+.sp td.event{
+	background: #FDFCE8;
+}
+.sp .calendar td{
+	padding:3px;
+	background-image: none;
+	line-height: 20px;
+	vertical-align: baseline;
+	border: 1px solid #c8bea6;
+}
+
+
+.sp calendar td p{ clear:both;	}
+.sp calendar td ol{	
+	padding:0px;
+	clear:both;
+	margin:0 0 0 20px;	
+}
+.sp .calendar td ol li{
+	padding:0px;
+	margin:0 0 0 28px;
+	display:block;	
+	list-style-type: decimal;
+}
+
+.sp .calendar td li{
+	color: #333333;
+	padding:0px;	
+	display:block;
+	margin:0 0 0 20px;	
+	list-style-type: circle;
+}
+.sp .calendar td li a{
+	color: #006699;
+	text-decoration:underline;
+	
+}
+.sp .calendar td .category{
+	background: url(../images/icon_Daycategory.gif) no-repeat 0px 0px;
+	padding:0px 0 5px 25px;	
+	margin:0px 0;
+}
+.sp .calendar td .category ul{ margin:0px;padding:0px; }
+.sp .calendar td .category li{
+	display:inline;
+	padding:5px 5px 3px 5px;
+	margin:0px 0 0 5px;
+	color: #666666;
+	border: 1px solid #6ca9bd;
+	background: #FFFFFF url(../images/btn_bg1.gif) repeat-x 0px top;
+}
+.sp .calendar td .category li.here{
+	color:#FFFFFF;
+	border: 1px solid #CC6600;
+	background: #FFFFFF url(../images/btn_bg2.gif) repeat-x 0px top;
+}
+.sp .calendar td .category li.here a{
+	color:#FFFFFF;
+}
+.sp .calendar td .category li a{
+	color: #1c7b9a;
+	text-decoration: none;
+}
+.sp .calendar .infotitle{
+	color: #fff;
+	background: #760000;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid #000;
+	font-weight: bold;
+	font-size:105%;
+}
+.sp .calendar .notes{
+	font-weight: normal;
+}
+
+.sp .calendar .classify{
+	color: #CC0000;
+}
+.sp .calendar .time{
+	color: #996600;
+} 
+
+/*------------------Month*/
+.sp .Month{
+	font-size: 15px;
+	width: 97%;
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse:collapse;
+	border: 1px solid #ddd4b4;
+}
+.sp .Month th{
+	background: #e3d1a0;
+	border: 1px solid #a99a7d;
+	color: #333;
+	font-size: 13px;
+	text-align: center;
+}
+.sp .Month th a{
+}
+.sp .calenMonthdar td.allday, .sp .Month th.allday{
+}	
+.sp .Month td.throw{
+}
+.sp .Month td.throw strong{
+}
+.sp .Month td{
+	border: 1px solid #ddd4b4;
+}
+.sp .Month td .HL{
+	font-weight: bold;
+	color: #c34e02;
+	background: #FF9;
+	display: block;
+} 
+.sp .Month td p{
+	color: #666666;
+}
+.sp .Month td ol{
+	margin: 0px;
+	padding: 0px;
+}
+.sp .Month td ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+.sp .Month td ol li{
+}
+
+.sp .Month td li{
+	margin: 0px;
+	padding: 0px;
+	list-style: url(none) none outside;
+}
+.sp .Month td li a {
+	color: #c34e02;
+	font-size: 12px;
+	margin: 0px;
+	background: url(../images/month_libg.gif) no-repeat 2px 5px;
+	*background: url(../images/month_libg.gif) no-repeat 2px 8px;
+	display: block;
+	padding: 0px 0px 0px 8px;
+}
+.sp .Month td li a:hover {
+	color: #5f2627;
+	text-decoration: none;
+}
+
+.sp .Month td a{
+}
+.sp .Month td a:hover{
+}
+
+.sp .Month .colorGray{
+}
+.sp .Month .colorGreen{
+}
+.sp .Month .colorRed{
+}
+.sp .classify {
+}
+.sp .classify a {
+	color: #5f2627;
+}
+.sp .classify a:hover {
+	color: #c34e02;
+	text-decoration: none;
+}
+
+.sp .note{
+	color: #666666;
+	margin:1px 0;
+	
+}
+.sp .note .here{
+	color: #990000;
+	background: #FFFFD9;
+	padding: 2px 5px 1px 5px;
+	border: 1px solid #000;
+}
+/*------------------------------------------------------questionnaire 問卷調查*/
+
+.sp .questionnaire{
+	width:100%;
+	border:1px solid #CDE8FC;
+	margin:0px 0 20px;
+}
+.sp .questionnaire td{
+	border:1px solid #CDE8FC;
+	vertical-align:top;
+}
+.sp .questionnaire td input{ vertical-align: middle;}
+.sp .questionnaire td p{
+}
+.sp .questionnaire caption{
+	color: #666666;
+}
+.sp .questionnaire .date{
+	color: #339900;
+}
+.sp .questionnaire th{
+	font-weight: bold;
+	color: #1D5A9E;
+	padding:3px 5px;
+	background: #D0E7F2;
+	border:1px solid #CDE8FC;
+	font-size: 105%;
+}
+.sp .questionnaire th em{
+	font-weight: normal;
+	color: #CC0000;
+}
+.sp .questionnaire th p{
+	color: #666666;
+	font-weight: normal;
+}
+.sp .questionnaire tr.yellow{
+	text-align: right;
+}
+.sp .questionnaire table{ width:98%;border:1px solid #ccc;}
+.sp .questionnaire table th{
+	background: #FFFFFF;
+	width:auto;
+	color: #333333;
+	font-size: 100%;
+	font-weight: normal;
+	border:1px solid #ccc;
+}
+.sp .questionnaire table td{border:1px solid #ccc;}
+.sp .floatright2 {
+	font-size: 80%;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 20px;
+	padding-left: 0px;
+}
+.sp .floatright2 img {
+	margin: 0px;
+	padding: 0px;
+	vertical-align: middle;
+}

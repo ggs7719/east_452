@@ -1,0 +1,202 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* [ 本CSS 說明 ]
+本CSS檔案內容通常使用在
+a.連結其它CSS
+b.制定通用規則
+*/
+
+/*----------[ 大項區塊 ]----------*/
+@import url("header.css");
+@import url("multimenu.css");			
+@import url("menu.css");										
+@import url("layout.css");
+@import url("left_right.css");
+@import url("footer.css");
+
+/*----------[ 型態頁面控制 ]----------*/
+@import url("mp.css");
+@import url("cp.css");
+@import url("lp.css");
+@import url("np.css");
+@import url("sp.css");
+
+/*----------[ 特殊單一區塊 ]----------*/
+@import url("googleMail.css"); /* google行事曆控制 */
+@import url("lp_category.css");
+@import url("scp_ui.css");	 /* 13組特殊版型控制 */
+@import url("more.css"); /* 更多內容按鈕控制 */
+@import url("marquee.css");	 /* 跑馬燈控制 */
+
+@import url("headline.css");
+@import url("form.css");
+@import url("default.css");
+@import url("search.css");
+@import url("sitemap.css");
+@import url("friendly.css");
+@import url("page.css");										 
+@import url("tabpanel1_class.css");		
+/*
+@import url("reset.css");
+@import url("right.css");
+
+*/
+/*--------------------------------------------------------------------------------[  總面積控制 ]----------*/
+body{
+	/*background:url(../images/bg.gif) left -5px repeat-x #6f6f6f;*/
+	margin:0px;
+	background: #a5956c;
+	padding: 0px;
+	}
+.wrap {
+	width: 1000px;
+	background:#FFF;
+	padding: 0px;
+	position: relative;
+	margin: 0px auto 0;
+}
+
+/*--------------------------------------------------------------------------------[  所有圖片基礎控制 ]----------*/
+img {
+	border-width: 0px;
+	border-style: none;
+}
+
+/*--------------------------------------------------------------------------------[  隱藏物件 ]----------*/
+.hidden {
+	display: none;
+	visibility: hidden;
+}
+
+/*--------------------------------------------------------------------------------[  首頁之外的頁面共通設定 ]----------*/
+.cp, .lp, .np, .qp, .sitemap, .qp, .sp, .fb, .form, .scp, cp_photo {
+	line-height: 150%;
+	color: #666666;
+	text-align:left;
+	clear:both;
+}
+
+/*--------------------------------------------------------------------------------[  底下為字型可以統一控制的部分  ]----------*/
+a {
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #666;
+	text-decoration: none;
+
+}    
+p {
+	font-size: 80%;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #666;
+	text-decoration: none;
+}
+h2 {
+	background-image: url(../images/headline_bg_001.gif);
+	background-repeat: no-repeat;
+	background-position: 3px 3px;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	width: 100%;
+	color:#682a2b;
+	padding-top: 4px;
+	padding-right: 0px;
+	padding-bottom: 1px;
+	padding-left: 26px;
+	margin-top: 0px;
+	*margin-top: -1px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.center h2 {
+	background-image: url(../images/center_h2bg.gif);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	color:#682a2b;
+	*margin-top: -1px;
+	margin: 10px 0px;
+	padding: 2px 0px 10px 30px;
+	width: 93%;
+}
+
+
+h2 span,.center h2 span {
+	font-size: 100%;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333;
+}
+h2 label,.center h2 label {
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color:#5F821E;
+}
+h2 span a,.center h2 span a {
+	font-size: 16px;
+	font-weight: bold;
+	color:#682a2b;
+
+}
+h3 {
+	font-size: 100%;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #00F;
+	text-decoration: none;
+}  
+
+/*--------------------------------------------------------------------------------[ date ]----------*/
+.side .date,
+.canter .date {
+	font-size: 70%;
+	color: #999;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-decoration: none;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 15px;
+}
+
+/*--------------------------------------------------------------------------------[ source ]----------*/
+.side .source,
+.canter .source {
+	font-size: 70%;
+	color: #666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-decoration: none;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+}
+.news{
+	background:url(../images/news_note.gif) no-repeat left top;
+	height:160px;
+	}

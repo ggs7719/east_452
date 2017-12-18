@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ----------------------------------------------------------------------[ category ]---------- */
+.center .lp .category {
+	width: 97%;
+	margin-left: 10px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	clear: both;
+}
+.center .lp .category ul {
+	margin: 0px;
+	padding: 0px;
+}
+.center .lp .category ul li {
+	display: inline;
+	margin-right: 0px;
+	margin-top: 2px;
+	margin-bottom: 0px;
+	margin-left: -2px;
+	padding-top: 2px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.center .lp .category ul li span {
+}
+.center .lp .category ul li span a {
+	padding-left: 8px;
+	padding-right: 8px;
+	margin-top: 2px;
+	margin-right: -3px;
+	margin-bottom: 2px;
+	margin-left: -2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	line-height: 170%;
+	color: #666666;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	display: inline-block;
+	background-color: #EFEFEF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-top-color: #999999;
+	border-left-color: #999999;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+}
+
+.center .lp .category ul li span a:hover {
+	color: #760000;
+	text-decoration: underline;
+	border: 1px solid #999999;
+}
+
+.center .lp .category ul .here span a {
+	background-color: #760000;
+	color: #FFF;
+}
+.center .lp .category ul .here span a:hover {
+	background-color: #760000;
+	color: #FC0;
+}

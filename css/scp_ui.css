@@ -1,0 +1,517 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*--------------------------------------------------------------------------------[  scp  ]----------*/
+/*----------[  抬頭  ]----------*/
+.center h2 {
+	background-image: url(../images/icon_here.gif);
+	background-repeat: no-repeat;
+	background-position: left 6px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 18px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+}
+.center h2 span {
+	font-size: 140%;
+	color: #760000;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;	
+}
+.center strong {
+	color: #333333;
+	text-decoration: none;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	background-image: url(../images/icon_arrow4_2.gif);
+	background-repeat: no-repeat;
+	background-position: left 10px;
+	font-size: 96%;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+}
+.center .scp {
+	padding: 0px;
+	width: 100%;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+.center h3 {
+	background-image: none;
+	display: block;
+	clear: both;
+	font-size: 96%;
+	color: #000;
+}
+.center .scp h3 {
+	background-image: none;
+	display: block;
+	clear: both;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+/*----------[  teamplate_1  ]----------*/
+.center .scp table {
+	border: 1px solid #CCC;
+	padding: 0px;
+	width: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	*margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	*margin-left: -3px;
+}
+.center .scp temp1 {}
+.center .scp table tr {}
+.center .scp table tr th {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #666;
+	text-decoration: none;
+	text-align: center;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	vertical-align: middle;
+	background-color: #EFEFEF;
+	*padding-top: 3px;
+	*padding-right: 0px;
+	*padding-bottom: 0px;
+	*padding-left: 0px;
+}
+.center .scp table tr td {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	color: #666;
+	text-decoration: none;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	margin: 0px;
+	padding-top: 3px;
+	*padding-top: 6px;
+	padding-right: 5px;
+	*padding-right: 1px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+	*padding-left: 7px;
+	text-align: justify;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+}
+.center .scp table tr td ol {
+	padding: 0px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: auto;
+	*margin-left: 5px;
+	width: 95%;
+}
+.center .scp table tr td ol li {
+	font-size: 100%;
+	color: #666;
+	*margin-left:30px;
+}
+.center .scp table tr td ul {
+	padding: 0px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: auto;
+	*margin-left: 5px;
+	width: 95%;
+}
+.center .scp table tr td ul li {
+	font-size: 100%;
+	color: #666;
+	*margin-left:30px;	
+}
+.center .scp table tr .throw {
+	width: 100px;
+	font-size: 80%;
+	text-align: center;
+	vertical-align: middle;
+}
+.center .scp table tr td a {
+	color: #760000;
+	font-size: 96%;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 3px;
+	padding-bottom: 0px;
+	padding-left: 3px;
+}
+.center .scp table tr td a:hover {
+	color: #760000;
+	text-decoration: underline;
+}
+.center .scp table tr td a:hover {
+	color: #333333;
+	text-decoration: underline;
+}
+/*----------[  teamplate_2  ]----------*/
+.scp p {
+	color: #666;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	text-align: justify;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+
+/*----------[  teamplate_3  ]----------*/
+.scp .photo {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	width: 98%;
+	text-align: center;
+}
+.scp .photo .pic1 {
+	padding: 0px;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-bottom: 15px;
+	margin-left: auto;
+	height: auto;
+	width: 400px;
+	border: 1px solid #333;
+}
+.scp .photo .pic2 {
+	padding: 0px;
+	width: 100%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+.scp .photo .pic2 ul {
+	padding: 0px;
+	width: 95%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	text-align: center;
+}
+.scp .photo .pic2 ul li {
+	display: inline;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+.scp .photo .pic2 ul li a {}
+.scp .photo .pic2 ul li a:hover {}
+.scp .photo .pic2 ul li a img {
+	margin: 0px;
+	padding: 0px;
+	height: 80px;
+	width: 110px;
+	border: 1px solid #666666;
+}
+.scp .photo .pic2 ul li a img:hover {
+	border: 1px solid #000;
+}
+
+/*----------[  teamplate_4_5_6_7  ]----------*/
+.scp .image .imgLeft {
+	float: left;
+	margin: 0px;
+	height: auto;
+	width: 290px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}
+.scp .image .imgRight {
+	float: right;
+	margin: 0px;
+	height: auto;
+	width: 290px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	*padding-left: 7px;
+}
+.scp .image strong {
+	color: #333333;
+	text-decoration: none;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	background-image: url(../images/icon_arrow4_2.gif);
+	background-repeat: no-repeat;
+	background-position: left 10px;
+	font-size: 96%;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+}
+.scp .image p {
+	color: #666;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	text-align: justify;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	line-height: 20px;
+} 
+/*----------[  teamplate_8  ]----------*/
+.scp .clear {
+}
+.scp .clear tr {}
+.scp .clear tr td {
+}
+.scp .clear tr .leftblock,
+.scp .clear tr .rightblock {
+	width: 50%;
+}
+.scp .clear tr .leftblock h3,
+.scp .clear tr .rightblock h3 {
+	font-size: 125%;
+	background-image: none;
+	background-color: #FFF;
+	margin: 0px;
+	padding-top: 3px;
+	padding-right: 0px;
+	padding-bottom: 3px;
+	*padding-bottom: 5px;
+	padding-left: 0px;
+}
+
+/*----------[  teamplate_9  ]----------*/
+
+.scp table tr {
+}
+.scp table tr td {
+}
+.scp table tr td .image3 {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	*margin-right: 3px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	*margin-left: -3px;
+}
+.scp table tr td .image3 img {
+	margin: 0px;
+	padding: 0px;
+	width: 200px;
+}
+/*----------[  小圖  ]----------*/
+.scp .temp1 .centerIMG {
+	background-color: #FFF;
+}
+.scp .temp1 .centerIMG img {
+	margin: 5px;
+	padding: 0px;
+	width: 120px;
+}
+/*----------[  clear_表格類_框線控制  ]----------*/
+.scp .clear {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	padding: 0px;
+	width: 98%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.scp .clear tr th {
+	margin: 0px;
+	padding: 0px;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	font-weight: normal;
+}
+.scp .clear tr td {
+	margin: 0px;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	font-size: 125%;
+	font-weight: normal;
+	color: #666;
+	padding-top: 5px;
+	padding-right: 3px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+.scp .clear tr td h3 {
+	font-size: 125%;
+	font-weight: normal;
+	color: #666;
+	margin: 0px;
+	padding: 0px;
+	background-color: #FFF;
+}
+.scp .clear tr td p {
+	font-size: 100%;
+	font-weight: normal;
+	color: #666;
+	margin: 0px;
+	padding: 0px;
+}
+/*----------[  temp1_表格類_框線控制  ]----------*/
+.scp .temp1 {
+	padding: 0px;
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	margin-top: 7px;
+	margin-right: 6px;
+	margin-bottom: 5px;
+	margin-left: 3px;
+	border-collapse: collapse;
+}
+.scp .temp1 tr th {
+	font-size: 100%;
+	font-weight: normal;
+	color: #666;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: none;
+	text-align: center;
+	background-color: #EFEFEF;
+}
+.scp .temp1 tr td {
+	font-weight: normal;
+	color: #666;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: none;
+	padding: 3px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.scp .temp1 tr td p {
+}
+
+/*----------[  修正最後文字的大小  ]----------*/
+.scp .clear .temp1 tr td {
+	font-size: 104%;
+}
+.scp .clear .temp1 tr td p {
+	font-size: 96%;
+}
+.scp .clear .temp1 tr th,
+.scp .clear .temp1 tr .throw {
+	font-size: 104%;
+}

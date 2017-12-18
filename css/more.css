@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*-----------------------------------------------------------------------------[ more ]----------*/
+.more {
+	width: 100%;
+	text-align: right;
+	padding: 0px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-decoration: none;
+	padding-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	clear:both;
+}
+.more a {
+	background-image: url(../images/icon_more2.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 1px;
+	color: #656565;
+	margin: 0px;
+	font-size: 70%;
+	width: 100px;
+	display: inline;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 16px;
+}
+.more a:hover {
+	color: #cc6410;
+	text-decoration: underline;
+}
+
+/*-----------------------------------------------------------------------------[ Center more ]----------*/
+.center .headline .body .more,
+.side .headline .more {
+	width: 98%;
+	text-align: right;
+	padding: 0px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-decoration: none;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.center .headline .body .more a,
+.side .headline .more a {
+	background-image: url(../images/icon_more2.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 1px;
+	*background-position: 0px 0px;
+	color: #656565;
+	margin: 0px;
+	font-size: 70%;
+	width: 100px;
+	display: inline;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 16px;
+}
+.center .headline .body .more a:hover,
+.side .headline .more a:hover {
+	color: #cc6410;
+	text-decoration: underline;
+}
+
+.center .more {
+	width: 98%;
+}
+

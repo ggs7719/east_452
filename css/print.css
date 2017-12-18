@@ -1,0 +1,7 @@
+/*----------------------------------------------------------------css reset start*/
+.header, .top .menu, .top .mlmenu,.leftbg,.rightbg,.footer,.accesskey{
+	display:none;
+	
+}
+
+/*----------------------------------------------------------------css reset end*/

@@ -1,0 +1,236 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+	width: 100%;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+#container .tabpanel{
+	width:100%;
+	margin:0;
+	padding:0px;	
+	clear: both; 
+}
+
+#container .tabpanel ul.tablist {
+	width:98%;
+	padding:0;
+	margin:0px;
+	font-size:13px;
+	overflow:hidden;    /*----overflow要加-----*/
+	background: url(../images/tablist_bg.gif) repeat-x 100% bottom; /*----底線設在背景圖像中-----*/
+}
+
+#container .tabpanel li{line-height: normal; }
+#container .tabpanel li.tab {
+	background-image: url(../images/PanelsTab1.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding:0px 0 0px 8px;
+	margin:0 2px 0 0px;
+	list-style-type: none;
+	margin-right:2px;
+	float:left;
+	cursor: pointer;
+	word-break:keep-all;
+	font-size:100%;
+	border-bottom: 1px solid #999;
+	margin-top: -1px;
+	border-top: 0px none;
+	border-right: 0px none;
+	border-left: 0px none;
+}
+#container .tabpanel li.tab span{
+	text-align:center;
+	background-image: url(../images/PanelsTab1.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+	padding:10px 8px 3px 0px;
+	color: #3e3e3e;
+	display:block;
+	cursor: pointer;
+	font-weight: bold;
+}
+#container .tabpanel li.tab span img{ vertical-align: middle; margin:-5px 0 -5px;  display:inline;  width:auto; height:auto;}
+
+#container .tabpanel li.tab span em{
+	color: #900;
+	line-height:normal;
+	font-family: "新細明體";
+}
+#container em, #container .tabpanel li.selected span em{
+	color: #900;
+	font-size:100%;
+	padding:0 2px 0;	font-style:normal;
+	font-weight:normal;
+	font-family: "新細明體";
+}
+
+#container .tabpanel li.selected {
+	background-image: url(../images/PanelsTab2.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	float: left;
+	display:block;
+	margin:0 2px 0 0px;
+	padding:0px 0 0px 8px;
+	border-bottom: 0px none;  /*-----將下方的border 隱藏掉------*/
+	margin-bottom: -1px;      /*----再設margin-top:-1 往上1px------*/
+	cursor: pointer;
+}
+#container .tabpanel li.selected span{
+	background-image: url(../images/PanelsTab2.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+	padding:8px 8px 5px 0px;
+	font-weight: bold;
+	color: #ffffff;
+	display:block;
+	cursor: pointer;
+}
+
+/*----------[ 修正headline導入後span週邊框線問題 ]----------*/
+#container .tabpanel .axs .headline .body ul li .source {
+	border: 0px none #FFFFFF;
+}
+/*
+#container .tabpanel {
+	width: 100%;
+	padding: 0px;
+	margin-top: 10;
+	margin-right: auto;
+	margin-bottom: 10;
+	margin-left: auto;
+}
+#container .tabpanel ul {
+	width: 100%;
+	padding: 0px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+#container .tabpanel ul li {
+	display: inline;
+	margin: 0px;
+	padding-top: 3px;
+	padding-right: 0px;
+	padding-bottom: 3px;
+	padding-left: 0px;
+}
+#container .tabpanel ul li span {
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	margin: 0px;
+}
+#container .tabpanel ul .tab {
+	margin: 0px;
+	padding: 0px;
+}
+#container .tabpanel ul li.tab span {
+	margin: 0px;
+	cursor: pointer;
+	font-size: 80%;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #000000;
+	text-decoration: none;
+	padding-top: 0px;
+	padding-right: 7px;
+	padding-bottom: 0px;
+	padding-left: 7px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: dotted;
+	border-left-style: dotted;
+	border-right-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+}
+#container .tabpanel ul li.tab span:hover {
+	color: #760000;
+}
+#container .tabpanel ul li.tab span em {
+	margin: 0px;
+	padding: 0px;
+}
+
+/*tabpanel2*/
+#container .tabpanel2b {
+	position: absolute;
+	top: 117px;
+}
+#container .tabpanel2b ul.tablist {
+	width:100%;
+	padding:0;
+	margin:0px;
+	font-size:1.2em;
+	overflow:hidden;
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	*right: 15px;
+	_right: 70px;
+	z-index: 80;
+	text-align: right;
+	_text-align: none;
+}
+#container .tabpanel2b li.tab {
+	margin:0 2px 0 0px;
+	list-style-type: none;
+	cursor: pointer;
+	word-break:keep-all;
+	font-size:12px;
+	border:0px none;
+	border: 0px solid #999;
+	/*background: #FFF;*/
+	display: inline;
+	padding: 0px 2px;
+	*padding: 0px 0px 0px 2px;
+}
+#container .tabpanel2b li.tab span {
+	text-align:center;
+	color: #777;
+	display: inline;
+	cursor: pointer;
+}
+#container .tabpanel2b li.selected {
+	display:block;
+	margin-bottom: 0px;
+	cursor: pointer;
+	display: inline;
+}
+#container .tabpanel2b li.selected span{
+	font-weight: bold;
+	color: #ad2a0b;
+	display: inline;
+	cursor: pointer;
+}
+#container .tabpanel2b .tabpanel {
+	clear: both;
+	width:1000px;	
+	border: 0px solid #ad2a0b;
+	border-top: 0px;
+	margin:0px 0 0px 0;
+	padding:0 0 0px 0;
+	overflow:hidden;
+	*overflow: inherit;
+	_overflow: inherit;
+}
+.bannerImg {
+	margin: 0px;
+	padding: 0px;
+	height: 229px;
+	width: 1000px;
+	border-style: none;
+}
+
+
